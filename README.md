@@ -14,3 +14,26 @@ It's so good!
 
 My goal is to fiddle around with how _I_ think the best score bug should look for `#{sport}`. 
 
+## (American) Football :football: 
+
+Whether I'm watching at home or at a bar, there's information about the game I want at a glance:
+* teams
+* score
+* possession
+* game progress (quarter, time left)
+* field position
+
+The one that really gets me is how most of the network score bugs will show field position _until the play begins_ and then you are out of luck until the play is done and the score bug gets an update. Psh, that's too long to wait. And it's longer if there's a penalty. Boo.
+
+```
+            2ND 14:38
+
+• PITTSBURGH       10
+  ---
+
+  BALTIMORE         3
+  ---
+
+  3RD & 4  -   OWN 45
+
+```
